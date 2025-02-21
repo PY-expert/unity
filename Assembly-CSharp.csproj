@@ -65,34 +65,271 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_IObjectTransform.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/FullscreenPlayMode.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/World_Sprite.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HeartsHealthSystem/HeartsHealthSystem.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/Button_UI.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/Sound_Manager.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/Shoot_Flash.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tooltip/Window_Items.cs" />
+    <Compile Include="Assets/Cainos/Pixel Art Platformer - Village Props/Script/Elevator.cs" />
+    <Compile Include="Assets/Shop/Scripts/Player.cs" />
+    <Compile Include="Assets/Shop/Scripts/ShopTriggerCollider.cs" />
+    <Compile Include="Assets/Shop/Scripts/EnemySpawner.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HelpBoxAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/CinematicBars.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CameraFov.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerCharacterDashRoll_Base.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/CharacterPortrait/Scripts/Window_CharacterPortrait.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideIfAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/InputWindow/Scripts/UI_Blocker.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CharacterAimHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HealthBarDamageTaken/HealthBarShrink.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/SetSpriteSorting.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/MeshUtils.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/BloodParticleSystemHandler.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerCharacterDashRoll.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CharacterWaypointsHandler.cs" />
+    <Compile Include="Assets/Shop/Scripts/UI_Shop.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableInPlayModeAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/MonoBehaviours/ComponentActions.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/LoadingScene/Loader.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/LevelingSystem/LevelWindow.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/MeshParticleSystem.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/KeyDoor/Scripts/DoorAnims.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/UI_Sprite.cs" />
+    <Compile Include="Assets/Scripts/Enemy Movement.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HealthBarDamageTaken/HealthBarFade.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/GridPathfinding.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Assets.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/WebRequests.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Grid/GridGradientVisual.cs" />
+    <Compile Include="Assets/Shop/Scripts/IShopCustomer.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideLabelAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_ObjectLogic_SkeletonUpdater.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/KeyDoor/Scripts/Key.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_ObjectTransformBody.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/RequiredAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/PathRoute.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/World_Mesh.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/GroupAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/RadarChart/Scripts/RadarChart_Testing.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/DragWindows/DragWindow.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/V_UnitSkeleton_Composite_Walker.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HotkeyBar/Scripts/HotkeyBar_Testing.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/ScreenshotHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TextWriter/Scripts/UI_Assistant.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tooltip/ItemInfo.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HotkeyBar/Scripts/HotkeyAbilitySystem.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/UI_BarMultiple.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_IObjectTransformBody.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/FunctionUpdater.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Enum.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/DirtParticleSystemHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/RadarChart/Scripts/UI_StatsRadarChart.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/MapPos.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HotkeyBar/Scripts/UI_HotkeyBar.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/Dirt_Handler.cs" />
     <Compile Include="Assets/Scripts/Confirmation Screen/Confirmation_Window.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HighscoreTable/UI_HighscoreTable.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ShowInInspectorAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerPlatformer.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/UVVectors.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/SectionHeaderAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/Enemy_Base.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Inventory/Scripts/ItemAssets.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CharacterPositionMovementHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tilemap/Tilemap.cs" />
+    <Compile Include="Assets/Shop/Scripts/Item.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/LastMoveTo.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HeartsHealthSystem/HeartsHealthVisual.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/BoxGroupAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Inventory/Scripts/Item.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/LabelTextAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerPositionMovement.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Inventory/Scripts/Inventory.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/RadarChart/Scripts/UI_TestStatsRadarChart.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/AssetsOnlyAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CharacterPathfindingMovementHandler.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_IHasWorldPosition.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/BlockquoteAttribute.cs" />
+    <Compile Include="Assets/Cainos/Pixel Art Platformer - Village Props/Script/BoundingPlatform.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerMain.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/KeyDoor/Scripts/KeyHolder.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/Button_Sprite.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Inventory/Scripts/UI_Inventory.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerPunch.cs" />
     <Compile Include="Assets/Scripts/Confirmation Screen/Test_Script.cs" />
+    <Compile Include="Assets/Cainos/Pixel Art Platformer - Village Props/Script/MovingPlatform.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Inventory/Scripts/ItemWorld.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TimeTickSystem.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/ShellParticleSystemHandler.cs" />
+    <Compile Include="Assets/Shop/Scripts/UI_Player.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/EnemyAim.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TaskSystem/CM_TaskSystem.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Grid/Grid.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tilemap/TilemapVisual.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Inventory/Scripts/ItemWorldSpawner.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_Object.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/EnemyHandler.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_ObjectTransform_LateUpdate.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/RadarChart/Scripts/Stats.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/TitleHeaderAttribute.cs" />
+    <Compile Include="Assets/Cainos/Common/Script/Utils/SecondOrderDynamics.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/BRT_GuestSpritesheet/Scripts/GuestSpritesheetData.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_IActiveInactive.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/UI_TextComplex.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TaskSystem/CM_IWorker.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/KeyDoor/Scripts/KeyDoor.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/V_UnitSkeleton_Composite_Weapon.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CharacterSwordHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TaskSystem/CM_WorkerTaskAI.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/EnableIfAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Graph/Scripts/Window_Graph.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/InputWindow/Scripts/UI_InputWindow.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerSwapAimNormal.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/Generic_Mesh_Script.cs" />
+    <Compile Include="Assets/Scripts/Node.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/UI_Bar.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableLucidEditorAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerMovementHandler.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HelpBoxIfAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/HealthSystem.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/PathQueue.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/FieldOfView/Scripts/FieldOfView.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/LoadingScene/LoadingProgressBar.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/CharacterPortrait/Scripts/Character.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/Player_Base.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/GameHandler_Setup.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ShowIfAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TaskSystem/CM_GameHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/DragDrop/Scripts/ItemSlot.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/BRT_GuestSpritesheet/Scripts/BRT_GuestSpritesheet_GameHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/GameAssets.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/LoadingScene/LoaderCallback.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/SpriteAnimator.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/IndentAttribute.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ButtonAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/MeshParticleSystem_Testing.cs" />
+    <Compile Include="Assets/Cainos/Pixel Art Platformer - Village Props/Script/Chest.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/GUIColorAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/MonoBehaviours/CameraFollow.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/UnitMovement.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/FunctionPeriodic.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HealthBarDamageTaken/HealthBarCutFallDown.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/CMDebug.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/KeyDoor/Scripts/UI_KeyHolder.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/Blood_Handler.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/PathNode.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HotkeyBar/Scripts/UI_HotkeyBarAbilitySlot.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/UtilsClass.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/OnValueChangedAttribute.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ReadOnlyAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/Enemy.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_IObjectActiveLogic.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/PropertyGroupAttribute.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HorizontalGroupAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CaptureOnTriggerEnter2D.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/CharacterPortrait/Scripts/CharacterPortrait_GameHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/SaveSystem.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/DamagePopups/DamagePopup.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/QuestPointer/Scripts/Window_QuestPointer.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/MaterialTintColor.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerSword.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/QuestPointer/Scripts/QuestPointer_GameHandler.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tooltip/Tooltip.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tooltip/Tooltip_Warning.cs" />
     <Compile Include="Assets/Scripts/LevelManager.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerCharacterController.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/FunctionTimer.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/FootprintParticleSystemHandler.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableIfAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tooltip/Window.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_IDestroySelf.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Grid/GridPrefabVisual.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/AnimatedWalker.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/FlyingBody.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/ParallaxBackground/Scripts/ParallaxBackground.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/V_UnitSkeleton_Composite_WeaponInvert.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideMonoScript.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/LevelingSystem/LevelSystemAnimated.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/TabGroupAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerAim.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_TimeScaleManager.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HealthBarDamageTaken/HealthBarCut.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableInEditModeAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TaskSystem/CM_WorkerTransporterTaskAI.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/HitCounter/HitCounter.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ValidateInputAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/Tooltip/Tooltip_ItemStats.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/CharacterAim_Base.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/LabelWidthAttribute.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerAim_Base.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_ObjectTransform.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/TextWriter/Scripts/TextWriter.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HorizontalLineAttribute.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/PropertyOrderAttribute.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/DragDrop/Scripts/DragDrop.cs" />
+    <Compile Include="Assets/_/Stuff/V_ObjectSystem/V_Main.cs" />
+    <Compile Include="Assets/_/Stuff/GridPathfinding/BinaryTree.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/WeaponTracer.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/World_Bar.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/LevelingSystem/LevelSystem.cs" />
+    <Compile Include="Assets/_/Stuff/Videos/BRT_GuestSpritesheet/Scripts/GuestHandler.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/FoldoutGroupAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Cainos/Third Party/Lucid Editor/License.txt" />
+    <None Include="Assets/_/Stuff/Shaders/VertexLitCG.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_UI_SolidColorTint.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_Sprites_Hue.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_UI_Blur.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_Sprites_Outline.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_TestUnlit.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_TransColor.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/_/Stuff/CodeMonkey/README.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_Sprites_Shadow.shader" />
+    <None Include="Assets/_/Stuff/Shaders/MultiplyTwoTextures.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_TransDiffuseWithTint.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_TransDiffuse.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_Sprites_SolidColorTint.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_FogOfWarPersistenEffect.shader" />
     <None Include="Assets/Art/prefabs/kenney_ui-pack/License.txt" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_Sprites_Shadow_Vertical.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_Sprites_Default.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_BW.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_UI_Greyscale.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_Sprites_Test.shader" />
+    <None Include="Assets/_/Stuff/Shaders/Endless_TransDiffuse_Alpha.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/_/Stuff/Shaders/3DText.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/_/Stuff/Shaders/GrayscaleToAlpha.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -1088,6 +1325,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
       <Private>False</Private>
@@ -1244,6 +1485,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1272,6 +1517,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1290,6 +1539,10 @@
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
@@ -1334,6 +1587,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="V_Animation.csproj" />
+    <ProjectReference Include="NavMeshPlus.csproj" />
+    <ProjectReference Include="NavMeshPlusEditor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

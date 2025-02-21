@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57369
+60352
 -job-worker-count
 3
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/akshaj/Library/CloudStorage/OneDriv
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8353548352]  Target information:
 
-Player connection [8353548352]  * "[IP] 192.168.200.12 [Port] 0 [Flags] 2 [Guid] 2969518246 [EditorId] 2969518246 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8353548352]  * "[IP] 192.168.200.12 [Port] 0 [Flags] 2 [Guid] 850034906 [EditorId] 850034906 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8353548352] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8353548352] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.28f1 (f336aca0cab5)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.28f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -97,44 +97,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.28f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56689
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004440 seconds.
-- Loaded All Assemblies, in  0.477 seconds
+Registered in 0.004713 seconds.
+- Loaded All Assemblies, in  0.645 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.490 seconds
-Domain Reload Profiling: 968ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.848 seconds
+Domain Reload Profiling: 1494ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (193ms)
-		LoadAssemblies (160ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (178ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (160ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (200ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (491ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (849ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (407ms)
+		SetupLoadedEditorAssemblies (757ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (250ms)
+			AfterProcessingInitializeOnLoad (158ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -142,505 +142,139 @@ Domain Reload Profiling: 968ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.969 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.890 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.384 seconds
-Domain Reload Profiling: 3345ms
-	BeginReloadAssembly (1059ms)
+- Finished resetting the current domain, in  1.941 seconds
+Domain Reload Profiling: 4829ms
+	BeginReloadAssembly (1620ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (810ms)
-		LoadAssemblies (470ms)
+		CreateAndSetChildDomain (120ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (622ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (411ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (263ms)
-			BuildScriptInfoCaches (109ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1384ms)
+		AnalyzeDomain (592ms)
+			TypeCache.Refresh (441ms)
+				TypeCache.ScanAssembly (395ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1942ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1065ms)
+		SetupLoadedEditorAssemblies (1536ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (811ms)
-			ProcessInitializeOnLoadMethodAttributes (144ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (1197ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.41 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.42 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6527 unused Assets / (2.2 MB). Loaded Objects now: 7337.
-Memory consumption went from 201.3 MB to 199.0 MB.
-Total: 91.864667 ms (FindLiveObjects: 11.518625 ms CreateObjectMapping: 7.682458 ms MarkObjects: 65.542833 ms  DeleteObjects: 7.120167 ms)
+Unloading 6527 unused Assets / (3.7 MB). Loaded Objects now: 7337.
+Memory consumption went from 201.0 MB to 197.3 MB.
+Total: 67.287167 ms (FindLiveObjects: 9.791125 ms CreateObjectMapping: 1.000333 ms MarkObjects: 50.473125 ms  DeleteObjects: 6.021792 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 247163.356335 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/button_rectangle_depth_gradient.png
-  artifactKey: Guid(fdce1040c0dc8458094d5fb194a1557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/button_rectangle_depth_gradient.png using Guid(fdce1040c0dc8458094d5fb194a1557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6eff215994cda8668fafd74ff8fff5d') in 1.153647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/check_round_grey.png
-  artifactKey: Guid(05efc745e6e71417abcb559de6870c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/check_round_grey.png using Guid(05efc745e6e71417abcb559de6870c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c96137cc638547b43d59e89d55d739') in 0.018631542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_depth_gradient.png
-  artifactKey: Guid(c64bdca62c4944f70b8fbc360540c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_depth_gradient.png using Guid(c64bdca62c4944f70b8fbc360540c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c180f0b0ed8c5c75e5ece2e107d7c2c1') in 0.024561792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/check_round_grey_circle.png
-  artifactKey: Guid(5ed6e080fcfe3431da599851b5c8fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/check_round_grey_circle.png using Guid(5ed6e080fcfe3431da599851b5c8fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e10ac7c75ac8c684add68708c9c6693e') in 0.011577834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/button_rectangle_depth_gradient.png
-  artifactKey: Guid(286363fd1f78e47b4a82bee380f42110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/button_rectangle_depth_gradient.png using Guid(286363fd1f78e47b4a82bee380f42110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83a52b94ec3c96294a32837b5a7d1b26') in 0.010408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/button_rectangle_depth_gradient.png
-  artifactKey: Guid(06703a2aa34c645d1995c1066f25b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/button_rectangle_depth_gradient.png using Guid(06703a2aa34c645d1995c1066f25b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a20e2df3b1f4693a053cc3e5764a2f09') in 0.010763334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/check_round_grey_circle.png
-  artifactKey: Guid(d97e6a32c6fdb4d609f1ebdac4bdddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/check_round_grey_circle.png using Guid(d97e6a32c6fdb4d609f1ebdac4bdddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00bf84f0ed3a270ec14b207842243173') in 0.0103625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_gradient.png
-  artifactKey: Guid(a5d180bac6e3844e7a587e7f934b79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_gradient.png using Guid(a5d180bac6e3844e7a587e7f934b79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5deaa5f8d60e3e4de79b11ec2cf1609a') in 0.015442084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/check_round_grey.png
-  artifactKey: Guid(0c324d71350c14f089059f5033086099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/check_round_grey.png using Guid(0c324d71350c14f089059f5033086099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd54b93b46d42be50bba7717c1315e79') in 0.011540917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/check_round_grey_circle.png
-  artifactKey: Guid(3e948b73426b44b0c881d8f13c8a26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/check_round_grey_circle.png using Guid(3e948b73426b44b0c881d8f13c8a26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '800d165c072c467abbdc16018effa959') in 0.015317333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/check_round_grey_circle.png
-  artifactKey: Guid(e4f20d8fafba040b4afca82678491815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/check_round_grey_circle.png using Guid(e4f20d8fafba040b4afca82678491815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '101ce1aed970d860ff45c053e38d3018') in 0.005862333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/button_rectangle_gradient.png
-  artifactKey: Guid(81845462cc5184675becabd6255a0840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/button_rectangle_gradient.png using Guid(81845462cc5184675becabd6255a0840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd76693e01d9c4ce6617e5c58d77581c') in 0.008977625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/check_round_grey.png
-  artifactKey: Guid(4f668e7aaeb454a77a9e53eada9b08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/check_round_grey.png using Guid(4f668e7aaeb454a77a9e53eada9b08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58d45847c645892088c29da10528e4fd') in 0.011578291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_depth_gradient.png
-  artifactKey: Guid(8d093eba592644498a3649dfaa892555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_depth_gradient.png using Guid(8d093eba592644498a3649dfaa892555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18fc375fa56b31bc84dcc60cebdc33b7') in 0.014737167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/button_rectangle_gradient.png
-  artifactKey: Guid(26c8cc4b8de78401aaaa5ec4811f0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/button_rectangle_gradient.png using Guid(26c8cc4b8de78401aaaa5ec4811f0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdd15658f1132e6e89c77e09625bdf2c') in 0.017790084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_gradient.png
-  artifactKey: Guid(403348f7a4bb74f5da90e8fdd2823d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_gradient.png using Guid(403348f7a4bb74f5da90e8fdd2823d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '539a72f229b68a204780374d650fb746') in 0.011383167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008230 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/check_square_grey.png
-  artifactKey: Guid(cf059c5980e7e42148a596cd94f12ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/check_square_grey.png using Guid(cf059c5980e7e42148a596cd94f12ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2620cf26a7100537e121edede2a779b') in 0.007640458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Default/check_square_grey.png
-  artifactKey: Guid(35e1556e92b594ea98e687934929f95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Default/check_square_grey.png using Guid(35e1556e92b594ea98e687934929f95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1439de1c9fe2bdb4e9873c5110b71c3') in 0.007116041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075113 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/check_square_grey.png
-  artifactKey: Guid(5e04f8d63eeb24f41bdf266abf95d9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/check_square_grey.png using Guid(5e04f8d63eeb24f41bdf266abf95d9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11f93db7209ec97bf8c972ac90fa2ac') in 0.013788209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/check_square_grey.png
-  artifactKey: Guid(89fd6bd40839d491ea9d73bc48394369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/check_square_grey.png using Guid(89fd6bd40839d491ea9d73bc48394369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46995ccd2bd09f0d2592c3c037fff086') in 0.022381209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/check_square_grey.png
-  artifactKey: Guid(32a2e2c41b8a543b6b527139b5f04acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/check_square_grey.png using Guid(32a2e2c41b8a543b6b527139b5f04acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8ed0e38da2d6b42da5ec05f8bfee7e7') in 0.026497416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.328696 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/check_square_grey_checkmark.png
-  artifactKey: Guid(2f622319b574c444e8190a13fea2c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/check_square_grey_checkmark.png using Guid(2f622319b574c444e8190a13fea2c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf8151ea96bc6355dca58815535bd58d') in 0.01063325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012152 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/check_square_grey_checkmark.png
-  artifactKey: Guid(515365e4df4454d689a0dc8f33a1ef19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/check_square_grey_checkmark.png using Guid(515365e4df4454d689a0dc8f33a1ef19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2deeb27ff19cfde394799a8e45e7f022') in 0.014011542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/check_square_grey_checkmark.png
-  artifactKey: Guid(115ddf4d0a41c4ed8aed46175b94ff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/check_square_grey_checkmark.png using Guid(115ddf4d0a41c4ed8aed46175b94ff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '022ab74fb98a234251b85e567f76f186') in 0.014982083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/check_square_grey_checkmark.png
-  artifactKey: Guid(fd9c9eea9ea974dd681b7d792644c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/check_square_grey_checkmark.png using Guid(fd9c9eea9ea974dd681b7d792644c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b4f40d4849f2e4b35dc5c8c603bd45f') in 0.00747875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024392 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/check_square_grey_cross.png
-  artifactKey: Guid(f96291778299f413bba9d5522657be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/check_square_grey_cross.png using Guid(f96291778299f413bba9d5522657be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e420449dc489de2a5c1f17f31329c87') in 0.014671625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_square_grey_cross.png
-  artifactKey: Guid(14a63c65c6fcd4a108d04387f4063571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_square_grey_cross.png using Guid(14a63c65c6fcd4a108d04387f4063571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '620b38a0b6c2e5c9b5701eaf61489d98') in 0.021338917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Default/check_square_grey_cross.png
-  artifactKey: Guid(3e106d0c555de41b09677220ae2279c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Default/check_square_grey_cross.png using Guid(3e106d0c555de41b09677220ae2279c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05641d3ffae24e2aa2ce41f13769bb1e') in 0.047307958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/check_square_grey_cross.png
-  artifactKey: Guid(f4e51bbd628994aa6b1a9802c1b49577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/check_square_grey_cross.png using Guid(f4e51bbd628994aa6b1a9802c1b49577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82a586c6a72d88a608d4d06b10f5124f') in 0.02150975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.568488 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_border.png
-  artifactKey: Guid(4a65d06add966442abc297c02d9edfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_border.png using Guid(4a65d06add966442abc297c02d9edfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fe23c4f4daf645b3f361361bcabc7f4') in 0.071022959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_depth_border.png
-  artifactKey: Guid(9ae479bd91ba04e588f92a66f63aea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_depth_border.png using Guid(9ae479bd91ba04e588f92a66f63aea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05859cd5a1f0c6c02f14b30b0cade0ec') in 0.028782584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/button_rectangle_depth_border.png
-  artifactKey: Guid(4b69abbcfc9bf4b86bcbd7a4392927dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/button_rectangle_depth_border.png using Guid(4b69abbcfc9bf4b86bcbd7a4392927dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1994f6e174f153540b7ddc24446b3d00') in 0.019548875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/button_rectangle_depth_border.png
-  artifactKey: Guid(081a18a745abf4ddbb8ab773c68c44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Green/Double/button_rectangle_depth_border.png using Guid(081a18a745abf4ddbb8ab773c68c44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a613c428c3adfb2e1f07e374a8494ab5') in 0.008021584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/button_rectangle_depth_border.png
-  artifactKey: Guid(b3c0aeb7f6e4e4040ba379cc85ce55e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/button_rectangle_depth_border.png using Guid(b3c0aeb7f6e4e4040ba379cc85ce55e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72ae8cf95602a5b13c77491b7020a599') in 0.00824125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/button_rectangle_border.png
-  artifactKey: Guid(f62ab4add3fe54112b0d8b7b04ab0fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/button_rectangle_border.png using Guid(f62ab4add3fe54112b0d8b7b04ab0fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a830098e3fc11f8b2938380ffbc7eb2') in 0.012997084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/button_rectangle_border.png
-  artifactKey: Guid(eb71305a725de4f6d91e046dc65a96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Double/button_rectangle_border.png using Guid(eb71305a725de4f6d91e046dc65a96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd834959abf4d630dd6e671c4555c63') in 0.014111625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.130437 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/button_rectangle_depth_flat.png
-  artifactKey: Guid(798c610e702174a6b8eb5f2c49ad633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Double/button_rectangle_depth_flat.png using Guid(798c610e702174a6b8eb5f2c49ad633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f8eb98608b7a05ac8908fce1a89b12') in 0.056337375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.137732 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_depth_flat.png
-  artifactKey: Guid(24aa1f0cb5bea4a71ade485cfbf5136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_depth_flat.png using Guid(24aa1f0cb5bea4a71ade485cfbf5136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c73e5cf464dc0312cf3ce5f84f9105') in 0.019341791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/button_rectangle_depth_flat.png
-  artifactKey: Guid(644adbf24e7644b63b026e9994514b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/button_rectangle_depth_flat.png using Guid(644adbf24e7644b63b026e9994514b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d82467babbd7d6f14dfac220fcbe4ba') in 0.014542041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_depth_gloss.png
-  artifactKey: Guid(752b713cd164e485780c718107b075da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Grey/Double/button_rectangle_depth_gloss.png using Guid(752b713cd164e485780c718107b075da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cbe7633c053ddafb3ff55707c743023') in 0.006767333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/button_rectangle_depth_gloss.png
-  artifactKey: Guid(14238061d392b4cd99d424b0d901cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Blue/Default/button_rectangle_depth_gloss.png using Guid(14238061d392b4cd99d424b0d901cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43d272d277b448ad89523ce7035c3e96') in 0.006231708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_depth_gloss.png
-  artifactKey: Guid(b2587d5ac4b1e48ccaae4b3656d0ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Double/button_rectangle_depth_gloss.png using Guid(b2587d5ac4b1e48ccaae4b3656d0ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03a41821b9dd410d6fc9db8d917c5f8c') in 0.009562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/button_rectangle_depth_gloss.png
-  artifactKey: Guid(4e9ec0c11e71246b98066f140788a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Yellow/Default/button_rectangle_depth_gloss.png using Guid(4e9ec0c11e71246b98066f140788a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec961ffa23029a5371ee8c516b2be9b8') in 0.013697167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1859.816847 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_round_color.png
-  artifactKey: Guid(55e8cbe50150a459489d7acd09259650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_round_color.png using Guid(55e8cbe50150a459489d7acd09259650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39a64a3b30120602e15ee2777a577aec') in 0.269416708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_cross.png
-  artifactKey: Guid(2789302aa173d4f75bd796d0e75447e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_cross.png using Guid(2789302aa173d4f75bd796d0e75447e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfdfee32ba8234ba2f97fcf0a3462cb0') in 0.023313083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_circle.png
-  artifactKey: Guid(3102c2eed8f3f4714b41ae11e8f754dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_circle.png using Guid(3102c2eed8f3f4714b41ae11e8f754dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b7d2f747e329d4f23192e775564efc1') in 0.012514125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_square.png
-  artifactKey: Guid(e6ac39c05039149c989ce9648596c596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_square.png using Guid(e6ac39c05039149c989ce9648596c596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed0b7c79503be04aa280dca06db0361d') in 0.007752958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_round_round_circle.png
-  artifactKey: Guid(472a6dd89611645d798e559b94dd98e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_round_round_circle.png using Guid(472a6dd89611645d798e559b94dd98e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a102b8eafea1b1d795aefdc770ac3d30') in 0.024698167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_checkmark.png
-  artifactKey: Guid(1fa2eb2c784424a03873766e233f728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_outline_checkmark.png using Guid(1fa2eb2c784424a03873766e233f728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a93342065c5a24460d9c3b1679686c34') in 0.018917708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color.png
-  artifactKey: Guid(5ce6a799f2231458d8fb9497ed605b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color.png using Guid(5ce6a799f2231458d8fb9497ed605b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '417537a43f958a7080dbbe8a406e8d2a') in 0.012091208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color_section_wide.png
-  artifactKey: Guid(5142663ba782442489d7173d85659238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color_section_wide.png using Guid(5142663ba782442489d7173d85659238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f96da754b205c9ae0c88c58ff98918') in 0.019003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_square_grey_square.png
-  artifactKey: Guid(a2a8cb9a4c8e34d25b403e59d24ebf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_square_grey_square.png using Guid(a2a8cb9a4c8e34d25b403e59d24ebf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d617cbca188d366d6f2cdcfd79f06d9') in 0.017862625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_circle.png
-  artifactKey: Guid(2d75b84971635437daca738dcb44970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/icon_circle.png using Guid(2d75b84971635437daca738dcb44970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45308c548a7e6dbb3a27850f218cb881') in 0.026664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_square_color_cross.png
-  artifactKey: Guid(33f6c876c6b044aa28edab0a3ede0b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/check_square_color_cross.png using Guid(33f6c876c6b044aa28edab0a3ede0b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c71d268b5b5b936001d7ffe8d50e79b1') in 0.012554458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.409842 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/star.png
-  artifactKey: Guid(1f0eca3752fcf4cba827d9c32bb2a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/star.png using Guid(1f0eca3752fcf4cba827d9c32bb2a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a0315d535020914c007aab0792adcc3') in 0.03114825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/star_outline_depth.png
-  artifactKey: Guid(f29ab8a9aee5a474bbe0e4d7d2d08265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/prefabs/kenney_ui-pack/PNG/Red/Default/star_outline_depth.png using Guid(f29ab8a9aee5a474bbe0e4d7d2d08265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '353a2cb523ad837f1ef745a08173691c') in 0.017632917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 286.267182 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '485a8dc9b1cd6037bad70432a9b68083') in 0.029986375 seconds
+  Time since last request: 251121.546281 seconds.
+  path: Assets/Thaleah_PixelFont/ThaleahFat.fontsettings
+  artifactKey: Guid(652f7165b7c30ab46af6c4aad90a639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/ThaleahFat.fontsettings using Guid(652f7165b7c30ab46af6c4aad90a639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05e65db0fbf2766a8a9a0cab5f9382a6') in 1.022553 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 181.908050 seconds.
+  path: Assets/Art/prefabs/kenney_ui-pack/Font/Kenney Future Narrow.ttf
+  artifactKey: Guid(16db75538b438485999c2f18b446d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/prefabs/kenney_ui-pack/Font/Kenney Future Narrow.ttf using Guid(16db75538b438485999c2f18b446d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39f2f767ab556da9648a9c07b4f25041') in 1.994758417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf
+  artifactKey: Guid(585188cdc4600544eb408bee749e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf using Guid(585188cdc4600544eb408bee749e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '460ca2336621a4b1941a442993a81785') in 0.05765175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.922555 seconds.
+  path: Assets/Green and White Retro Pixel Game Night Presentation/2.png
+  artifactKey: Guid(58ecbf8a359eb473b9b124c29306b75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Green and White Retro Pixel Game Night Presentation/2.png using Guid(58ecbf8a359eb473b9b124c29306b75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '335ef62ce39805e8e82b4f745296ad86') in 0.459694791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.943695 seconds.
+  path: Assets/Futura Display 2.ttf
+  artifactKey: Guid(665566ecb66174e6e883f0afdae47a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futura Display 2.ttf using Guid(665566ecb66174e6e883f0afdae47a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09c2495c091e77d6978a5075e0d9d7b0') in 0.878929333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x340ac7000 may have been prematurely finalized
+- Loaded All Assemblies, in  3.847 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.133 seconds
+Domain Reload Profiling: 4989ms
+	BeginReloadAssembly (2317ms)
+		ExecutionOrderSort (16ms)
+		DisableScriptedObjects (984ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (430ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (1438ms)
+		LoadAssemblies (1273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (58ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (364ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1133ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (865ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (658ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6525 unused Assets / (2.4 MB). Loaded Objects now: 7413.
+Memory consumption went from 187.1 MB to 184.7 MB.
+Total: 27.590000 ms (FindLiveObjects: 1.300291 ms CreateObjectMapping: 1.509500 ms MarkObjects: 20.631708 ms  DeleteObjects: 4.147917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
