@@ -93,8 +93,8 @@
     <Compile Include="Assets/_/Base/BaseScripts/CharacterWaypointsHandler.cs" />
     <Compile Include="Assets/Shop/Scripts/UI_Shop.cs" />
     <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableInPlayModeAttribute.cs" />
-    <Compile Include="Assets/_/Stuff/CodeMonkey/MonoBehaviours/ComponentActions.cs" />
     <Compile Include="Assets/_/Stuff/Videos/LoadingScene/Loader.cs" />
+    <Compile Include="Assets/_/Stuff/CodeMonkey/MonoBehaviours/ComponentActions.cs" />
     <Compile Include="Assets/_/Stuff/Videos/LevelingSystem/LevelWindow.cs" />
     <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/MeshParticleSystem.cs" />
     <Compile Include="Assets/_/Stuff/Videos/KeyDoor/Scripts/DoorAnims.cs" />
@@ -167,8 +167,8 @@
     <Compile Include="Assets/_/Stuff/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs" />
     <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/ShellParticleSystemHandler.cs" />
     <Compile Include="Assets/Shop/Scripts/UI_Player.cs" />
-    <Compile Include="Assets/_/Base/BaseScripts/EnemyAim.cs" />
     <Compile Include="Assets/_/Stuff/Videos/TaskSystem/CM_TaskSystem.cs" />
+    <Compile Include="Assets/_/Base/BaseScripts/EnemyAim.cs" />
     <Compile Include="Assets/_/Stuff/Videos/Grid/Grid.cs" />
     <Compile Include="Assets/_/Stuff/Videos/Tilemap/TilemapVisual.cs" />
     <Compile Include="Assets/_/Stuff/Videos/Inventory/Scripts/ItemWorldSpawner.cs" />
@@ -253,8 +253,8 @@
     <Compile Include="Assets/_/Stuff/Scripts/AnimatedWalker.cs" />
     <Compile Include="Assets/_/Base/BaseScripts/FlyingBody.cs" />
     <Compile Include="Assets/_/Stuff/Videos/ParallaxBackground/Scripts/ParallaxBackground.cs" />
-    <Compile Include="Assets/_/Stuff/Scripts/V_UnitSkeleton_Composite_WeaponInvert.cs" />
     <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideMonoScript.cs" />
+    <Compile Include="Assets/_/Stuff/Scripts/V_UnitSkeleton_Composite_WeaponInvert.cs" />
     <Compile Include="Assets/_/Stuff/Videos/LevelingSystem/LevelSystemAnimated.cs" />
     <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/TabGroupAttribute.cs" />
     <Compile Include="Assets/_/Base/BaseScripts/PlayerAim.cs" />
@@ -1325,12 +1325,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
@@ -1513,12 +1513,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
