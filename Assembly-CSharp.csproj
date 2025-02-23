@@ -99,7 +99,6 @@
     <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/MeshParticleSystem.cs" />
     <Compile Include="Assets/_/Stuff/Videos/KeyDoor/Scripts/DoorAnims.cs" />
     <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/UI_Sprite.cs" />
-    <Compile Include="Assets/Scripts/Enemy Movement.cs" />
     <Compile Include="Assets/_/Stuff/Videos/HealthBarDamageTaken/HealthBarFade.cs" />
     <Compile Include="Assets/_/Stuff/GridPathfinding/GridPathfinding.cs" />
     <Compile Include="Assets/_/Stuff/CodeMonkey/Assets.cs" />
@@ -191,7 +190,6 @@
     <Compile Include="Assets/_/Stuff/Videos/InputWindow/Scripts/UI_InputWindow.cs" />
     <Compile Include="Assets/_/Base/BaseScripts/PlayerSwapAimNormal.cs" />
     <Compile Include="Assets/_/Stuff/Scripts/Generic_Mesh_Script.cs" />
-    <Compile Include="Assets/Scripts/Node.cs" />
     <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/UI_Bar.cs" />
     <Compile Include="Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableLucidEditorAttribute.cs" />
     <Compile Include="Assets/_/Base/BaseScripts/PlayerMovementHandler.cs" />
@@ -242,7 +240,6 @@
     <Compile Include="Assets/_/Stuff/Videos/QuestPointer/Scripts/QuestPointer_GameHandler.cs" />
     <Compile Include="Assets/_/Stuff/Videos/Tooltip/Tooltip.cs" />
     <Compile Include="Assets/_/Stuff/Videos/Tooltip/Tooltip_Warning.cs" />
-    <Compile Include="Assets/Scripts/LevelManager.cs" />
     <Compile Include="Assets/_/Base/BaseScripts/PlayerCharacterController.cs" />
     <Compile Include="Assets/_/Stuff/CodeMonkey/Utils/FunctionTimer.cs" />
     <Compile Include="Assets/_/Stuff/Videos/MeshParticleSystem/Scripts/FootprintParticleSystemHandler.cs" />
